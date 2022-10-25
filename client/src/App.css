@@ -34,6 +34,7 @@
   width: 10%;
   height: 100%;
   background-color: #1e1e67;
+  overflow-y: auto;
 
 }
 
@@ -43,11 +44,22 @@
   background-color: #1a1a58;
   color: white;
   text-align: center;
+  font-size: 1.5em;
 
+}
+.ListItem:hover{
+  background-color: #303072;
+}
+.ListItem:active{
+  background-color: #494981;
 }
 
 * table{
   border-spacing: 0px;
+}
+
+.cell{
+  width: 3vw;
 }
 
 * td{
@@ -71,5 +83,6 @@
 * tr{
   margin: 0px;
   padding: 0;
+  width: 100px;
 
 }
